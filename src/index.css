@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply my-16;
+}
+
+button {
+  @apply px-4 py-4 max-w-96 h-8 bg-cyan-900 text-white flex items-center justify-center rounded-lg border-none;
+}
